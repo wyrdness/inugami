@@ -1,0 +1,289 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/inugami",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "inugami",
+    "name": "Inugami",
+    "aliases": [
+      {
+        "name": "犬神",
+        "language": "Japanese",
+        "meaning": "Dog god"
+      },
+      {
+        "name": "Dog God",
+        "language": "English",
+        "meaning": "Direct translation"
+      },
+      {
+        "name": "Inugami-mochi",
+        "language": "Japanese",
+        "meaning": "Possessing/possessor of an inugami"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Yokai",
+    "tags": [
+      "yokai",
+      "japanese-folklore",
+      "spirit-familiar",
+      "possession",
+      "curse",
+      "sorcery",
+      "dangerous",
+      "regional-folklore",
+      "dark-magic",
+      "hereditary"
+    ],
+    "status": "traditional",
+    "description": {
+      "summary": "A powerful and dangerous Japanese spirit familiar created through an extremely cruel ritual. Bound to serve a sorcerer or family bloodline, inugami can possess humans, cause illness, protect their masters, or curse enemies.",
+      "full": "Inugami, literally 'dog god,' is one of the darker entities in Japanese folklore—a powerful spirit familiar created through a horrifically cruel ritual and bound to serve a sorcerer or family for generations. According to tradition, an inugami is created by burying a dog up to its neck, starving it while placing food just out of reach, and then beheading it at the peak of its frenzy and anguish. The head is then worshipped and becomes a powerful familiar spirit. Once created, an inugami possesses formidable supernatural abilities: it can possess humans (causing victims to bark, crawl on all fours, and crave raw meat), inflict illness and madness, protect its owning family from harm, curse enemies, and even divine the future. The spirit is bound to a family bloodline and passes through generations, creating what's known as 'inugami-mochi'—families possessing an inugami. This designation carried severe social stigma in certain regions, particularly Shikoku and Kyushu. While inugami can be tremendously beneficial to their masters, they are also dangerous—if not properly respected, fed, and cared for, they can turn on their own family. Removal of inugami possession requires difficult exorcism rituals. The creation method is considered extremely cruel and has long been a forbidden practice, yet the folklore reflects deep cultural beliefs about the power of suffering, the bond between humans and dogs, and the moral consequences of dark sorcery."
+    },
+    "etymology": {
+      "origin": "'Inu' means dog and 'kami' means god or spirit.",
+      "meaning": "Dog god",
+      "first_use": "Regional Japanese folklore, particularly Shikoku and Kyushu"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Spirit familiar / Curse entity",
+      "variant": "Japanese (regional)"
+    },
+    "related_phenomena": [
+      {
+        "id": "kitsune",
+        "name": "Kitsune",
+        "relationship": "similar_familiar",
+        "description": "Fox spirits that can also serve as familiars and possess humans"
+      },
+      {
+        "id": "possession",
+        "name": "Spirit Possession",
+        "relationship": "related_phenomenon",
+        "description": "Various forms of spirit possession in Japanese folklore"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "features": [
+        {
+          "feature": "Form",
+          "description": "Dog spirit, typically invisible but may manifest as dog-like shadow or presence",
+          "frequency": "always"
+        },
+        {
+          "feature": "Origin",
+          "description": "Created from dog head through cruel ritual",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Spirit entity without consistent physical form. When manifesting, may appear as dog-like shadow, presence, or influence."
+    },
+    "abilities": [
+      {
+        "ability": "Human possession",
+        "description": "Can possess humans, causing canine behavior (barking, crawling, craving raw meat)",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Illness infliction",
+        "description": "Causes sickness, madness, and suffering in victims",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Family protection",
+        "description": "Protects owning family from harm and misfortune",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Curse power",
+        "description": "Can curse and attack family's enemies",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Divination",
+        "description": "Can divine the future and reveal hidden knowledge",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Hereditary binding",
+        "description": "Bound to family bloodline, passes through generations",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "any time",
+      "disposition": "dangerous",
+      "social_structure": "bound to family",
+      "patterns": [
+        "Serves bound family as familiar",
+        "Attacks family's enemies",
+        "Possesses victims as directed",
+        "Requires regular offerings and respect",
+        "Can turn on family if neglected",
+        "Passes to next generation at death",
+        "Difficult to remove once bound"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Regional Japanese folklore, particularly strong in Shikoku and Kyushu regions.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Shikoku (particularly associated)",
+        "Kyushu (particularly associated)",
+        "Western Japan regions"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Regional folklore tradition",
+        "circa": true,
+        "source": "Oral tradition from Shikoku and Kyushu"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Regional Japanese folklore from Shikoku and Kyushu. Reflects beliefs about sorcery, the power of suffering and resentment, and the spiritual bond between humans and dogs.",
+      "earliest_accounts": "Traditional oral folklore from western Japan regions",
+      "folklore_connections": "Related to broader Japanese traditions of spirit familiars, possession, and hereditary curses. Social stigma of 'inugami-mochi' families reflects historical discrimination."
+    },
+    "timeline": [
+      {
+        "date": "Traditional period",
+        "event": "Regional folklore origins",
+        "significance": "Inugami beliefs develop in Shikoku and Kyushu regions",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "Edo period onward",
+        "event": "Social stigma documentation",
+        "significance": "Records of discrimination against inugami-mochi families",
+        "source": "Regional historical records"
+      },
+      {
+        "date": "Modern era",
+        "event": "Folklore preservation",
+        "significance": "Academic study and documentation of inugami traditions",
+        "source": "Folklore research"
+      }
+    ],
+    "modern_era": "Inugami folklore is studied as example of regional belief systems, dark sorcery traditions, and historical social discrimination. The cruel creation method is recognized as forbidden practice."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Creation through cruel ritual (forbidden)",
+        "Hereditary family familiars",
+        "Social stigma of inugami-mochi families",
+        "Exorcism and removal practices"
+      ],
+      "stories": [
+        "Families gaining power through inugami",
+        "Possession victims exhibiting canine behavior",
+        "Inugami turning on neglectful masters",
+        "Social ostracism of cursed families"
+      ],
+      "beliefs": "Extreme suffering and resentment can create powerful spirits. Familiars bind to bloodlines. Dark magic carries moral consequences and social stigma."
+    },
+    "indigenous": {
+      "cultures": [
+        "Japanese (regional: Shikoku, Kyushu)"
+      ],
+      "significance": "Reflects complex beliefs about sorcery, suffering, loyalty, and the consequences of cruelty. Social stigma demonstrates real-world impact of folklore beliefs.",
+      "sensitivity_note": "Inugami folklore involves extreme animal cruelty (forbidden practice) and historical discrimination against certain families. Handle with cultural sensitivity and awareness of dark content.",
+      "respect_guidelines": "Recognize the historical reality of social discrimination. Acknowledge the cruel creation method as forbidden and morally condemned practice. Respect the serious cultural beliefs involved."
+    },
+    "popular_culture": {
+      "literature": [
+        "Yokai encyclopedias",
+        "Regional folklore collections",
+        "Horror fiction featuring inugami"
+      ],
+      "film_tv": [
+        "Horror anime and films",
+        "Supernatural TV dramas",
+        "Folklore documentaries"
+      ],
+      "games": [
+        "Horror and supernatural games",
+        "Yokai-themed RPGs"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Kunio Yanagita",
+        "affiliation": "Japanese folklorist",
+        "contribution": "Documented regional folklore including inugami traditions",
+        "period": "Early 20th century"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "International Research Center for Japanese Studies",
+        "focus": "Japanese folklore and cultural studies"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-2015",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "reider-2010",
+      "type": "book",
+      "title": "Japanese Demon Lore: Oni from Ancient Times to the Present",
+      "authors": ["Noriko T. Reider"],
+      "publication": "Utah State University Press",
+      "date": "2010",
+      "isbn": "978-0874217445"
+    }
+  ]
+}
